@@ -3,9 +3,9 @@
 
 **[App URL](https://server-test-qjg9.onrender.com/)**
 
-**[Github actions](https://github.com/ramaalmomani1/server-deployment-practice/actions)**
+**[Github actions](https://github.com/ramaalmomani1/basic-express-server/actions)**
 
-**[Pull request](https://github.com/ramaalmomani1/server-deployment-practice/pulls/)**
+**[Pull request](https://github.com/ramaalmomani1/basic-express-server/pulls)**
 
 ----
 
