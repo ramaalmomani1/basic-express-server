@@ -13,8 +13,8 @@ const validator = require('./middleware/validator')
 app.use(logger)
 
 
-app.get('/person/:name', validator, handleName )
-// app.get('/person', validator, handleName )
+// app.get('/person/:name', validator, handleName )
+app.get('/person', validator, handleName )
 app.get ('/bad', badRequest)
 app.use ('*' , pageNotFound)
 app.use(serverError)
