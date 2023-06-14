@@ -10,6 +10,11 @@ describe('Server test', () => {
       const res = await req.get('/items');
       expect(res.status).toEqual(404);
     })
+
+    it('Handel not found pages', async () => {
+      const res = await req.put('/items');
+      expect(res.status).toEqual(404);
+    })
     
     it('Handle errors', async () => {
       const res = await req.get('/bad');
