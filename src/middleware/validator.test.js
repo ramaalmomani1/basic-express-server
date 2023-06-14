@@ -7,8 +7,8 @@ const req = supertest(app);
 
 describe('validator test', () => {
     it('handle name', async () => {
-      const res = await req.get('/person/:name');
-    //   const res = await req.get('/person');
+    //   const res = await req.get('/person/:name');
+      const res = await req.get('/person');
 
       expect(res.status).toEqual(200);
     })
