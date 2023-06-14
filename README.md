@@ -1,7 +1,7 @@
 # basic-express-server
 
 
-**[App URL](https://server-test-qjg9.onrender.com/)**
+**[App URL](https://basic-server-att7.onrender.com)**
 
 **[Github actions](https://github.com/ramaalmomani1/basic-express-server/actions)**
 
